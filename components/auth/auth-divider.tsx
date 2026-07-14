@@ -1,0 +1,1 @@
+export function AuthDivider() { return <div className="my-6 flex items-center gap-3"><span className="h-px flex-1 bg-slate-200 dark:bg-white/10"/><span className="text-[10px] font-semibold uppercase tracking-[.16em] text-slate-400">or continue with</span><span className="h-px flex-1 bg-slate-200 dark:bg-white/10"/></div>; }

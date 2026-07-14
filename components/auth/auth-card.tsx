@@ -1,0 +1,1 @@
+export function AuthCard({ children }: { children: React.ReactNode }) { return <section className="rounded-3xl border border-white/80 bg-white/80 p-6 shadow-[0_24px_80px_-28px_rgba(49,46,129,.3)] backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/70 sm:p-8">{children}</section>; }

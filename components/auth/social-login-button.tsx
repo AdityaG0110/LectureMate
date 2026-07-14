@@ -1,0 +1,3 @@
+import type { ComponentType } from "react";
+
+export function SocialLoginButton({ label, icon: Icon }: { label: string; icon: ComponentType<{ size?: number; className?: string }> }) { return <button type="button" onClick={() => undefined} className="flex min-h-11 flex-1 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-3 text-xs font-semibold text-slate-700 transition hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:bg-white/10"><Icon size={16}/>{label}</button>; }
